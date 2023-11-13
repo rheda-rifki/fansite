@@ -1,0 +1,51 @@
+/* Style de l'en-tête */
+header {
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.culture-list {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.culture-category {
+    width: calc(33.33% - 20px);
+    border: 2px solid #333;
+    margin: 10px;
+    margin-left: 11%;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.culture-category h2 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.culture-category-content {
+    font-size: 1em;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(6, 56, 6);
+}
+
+#centro {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+footer {
+    background-color:red;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

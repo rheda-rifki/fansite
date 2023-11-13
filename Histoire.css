@@ -1,0 +1,83 @@
+/* Style de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color:red;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: rgb(6, 54, 6);
+    color: #fff;
+    text-align:center;
+    padding: 20px;
+}
+
+/* Style du titre principal */
+h1 {
+    font-size: 36px;
+}
+
+/* Style de la barre de navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration:line-through;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style des sections */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des liens dans les sections */
+section a {
+    color: rgb(6, 54, 6);
+    text-decoration: underline;
+}
+
+/* Style du pied de page */
+footer {
+    background-color:rgb(6, 54, 6);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style des listes à puce */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Style des titres de section */
+h2 {
+    font-size: 24px;
+    color:rgb(6, 54, 6);
+}
+
+/* Style pour les paragraphes */
+p {
+    line-height: 1.5;
+}
+
+/* Style pour les liens de navigation actifs */
+nav a:hover {
+    text-decoration: underline;
+}

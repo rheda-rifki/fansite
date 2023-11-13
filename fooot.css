@@ -1,0 +1,42 @@
+#terrain{
+    background-image: url(Images/Terrain\ pelouse.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+header {
+    background-color:red;
+    color: #fff;
+    text-align:center;
+    padding: 20px;
+}
+
+#terrain img{
+    width: 200px;
+    height: auto;
+}
+
+.defense{
+    display: flex;
+    flex-direction:column;
+}
+
+.miedfilder{
+    display: flex;
+    flex-direction:column;
+}
+
+.forward{
+    display: flex;
+    flex-direction:column;
+}
+
+footer {
+    background-color:red;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
